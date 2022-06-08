@@ -12,12 +12,9 @@ char alpha, co;
 co = 0;
 
 while (co < 10)
-{
- for (alpha = 'a'; alpha <= 'z'; alpha++)
- {
- _putchar (alpha);
- }
- co++;
- _putchar('\n');
+for (alpha = 'a'; alpha <= 'z'; alpha++)
+_putchar (alpha);
+}
+co++;													_putchar('\n'
 }
 }
